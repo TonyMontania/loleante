@@ -4,7 +4,8 @@ import beconnect
 def gestionarProv (nombreprod):
     beconnect.Mostrar("SELECT nombreprod FROM producto WHERE nombreprod = "+ nombreprod )
     pass
-def controlarProd():
+def controlarProd(productoid):
+    beconnect.Mostrar("SELECT productoid FROM producto WHERE prodcutoid ="+ productoid)
     pass
 def comprarProd():
     pass
